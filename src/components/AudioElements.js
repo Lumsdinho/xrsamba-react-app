@@ -8,24 +8,29 @@ function AudioElements(props) {
   fontWeight: "bold",
   fontFamily: 'bitter',
   fontSize:"1.5rem",
-  outline: "red dotted 2px",
+  // outline: "red dotted 2px",
   display:"flex",
   flexWrap:"wrap",
   justifyContent:"spaceBetween",
-  maxWidth:"100%"
+  maxWidth:"100%" ,
+  margin:"1rem 0 1rem 0" 
   }
 
   const mp3containerStyle = {
     fontFamily: 'bitter',
     color: 'white',
-    border: ".2rem solid grey",
-    maxWidth: "5rem",
+    // border: ".2rem solid grey",
+    width: "10rem",
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "spaceBetween",
     textAlign:"center",
-    margin: ".2rem .2rem .2rem .2rem"
+    margin: ".2rem .6rem .2rem .6rem",
+    color:"black",
+    backgroundColor:"white",
+    border:"solid .2rem #FE82CB",
+    borderRadius:"8%"
   }
 
   const mp3NameStyle = {
@@ -33,7 +38,7 @@ function AudioElements(props) {
   }
 
   const mp3Style = {
-    maxWidth: "4rem"
+    maxWidth: "8rem"
   }
 
   const samples = props.tuneData[props.pageIndex].samples
