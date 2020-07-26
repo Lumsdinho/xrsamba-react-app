@@ -1,24 +1,45 @@
 import React from 'react'
 
-class Header extends React.Component {
-    render() {
+function Header(props) {
 
-        const tuneButtons = this.props.data
-        .filter(tune => tune.title !=='Brighton XR Samba')
-        .map((tune,index) => <button key={tune.id} onClick={() => this.props.handleClick(index+1)}>{tune.title}</button>)
+    const navStyle = {
+        fontSize: '.8rem'
+    }
 
-        return(
-            <div>
-                <nav>
-                <h2>{this.props.header}</h2>
+    const headerStyle = {
+        fontFamily: 'anton',
+        color: 'white',
+        borderTop: 'solid white 1px',
+        borderBottom: 'solid white 1px',
+        marginTop: '.5rem',
+        padding: '.1em 0 .1em 0',
+        // fontSize: '10vw',
+        fontSize: "clamp(2rem, 5vw, 4rem)",
+        minSize: "200px",
+        textAlign: "center"
+    }
+    
+    const tuneButtons = props.data
+        .filter(tune => tune.title !=='BRIGHTON XR SAMBA')
+        .map((tune,index) => 
+        <button 
+            className="tuneButton"
+            key={tune.id}             
+            onClick={() => props.handleClick(index+1)}
+            >{tune.title}        
+        </button>)
+
+    return(
+        <div>
+            <nav style={navStyle}>
+                <h2 style={headerStyle}>{props.header}</h2>
                 <div>
-                    <button key={this.props.data[0].id} onClick={() => this.props.handleClick(0)}>HOME</button>
+                    <button className="tuneButton" key={props.data[0].id} onClick={() => props.handleClick(0)}>HOME</button>
                     {tuneButtons}
                 </div>
-                </nav>
-            </div>
-        )
-    }
+            </nav>
+        </div>
+    )   
 }
 
 export default Header

@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@700&family=Open+Sans&family=Roboto:wght@100;700&display=swap');
+
+:root {
+  /* --clr-green: #51B12C; */
+  --clr-green: #66CC68;
+  --clr-drk-green: #005205;
+  --clr-pink: #FE82CB;
+  --clr-drk-pink: #B45850;
+  --clr-text: white;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,11 +16,55 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #3FC24A;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tuneButton {
+  cursor: pointer;    
+  border: 0;
+  background: transparent;
+  color: var(--clr-text);    
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  /* margin-top: 10px;   */
+  font-family: 'bitter';  
+  /* outline: 1px solid red; */
+}
+
+.tuneButton::after {
+  content: "";
+  position: absolute;
+  border-radius: 50px;
+  background: #FE82CB;
+  height: 10px;
+  width: 75%;
+  left: 0;
+  top: 52%;
+  z-index: -1;
+  transform-origin: bottom left;
+  transition: 250ms cubic-bezier(1,.45,.58,2.07);
+}
+
+.tuneButton:hover::after {
+  transform: scale(1.3, 1.85);
+}
+
+/* .myRow {
+  color: var(--clr-text);
+  font-weight: 'bold';
+  font-family: 'bitter';
+  font-size:'1.5rem';
+  outline: 'red dotted 2px';
+  display:'flex';
+  flex-wrap:'wrap';
+  justify-content:'spaceBetween';
+  max-width:'100%'
+} */
 
 
