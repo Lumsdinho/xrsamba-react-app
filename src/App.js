@@ -28,14 +28,17 @@ render() {
     const pageIndex = this.state.pageIndex
       return(
       <div className="container">
-        <Header key={this.state.tuneData.id}
-                header={this.state.tuneData[pageIndex].title}
+
+        <Header header={this.state.tuneData[pageIndex].title}
                 data={this.state.tuneData}
                 handleClick={this.handleClick}/>
-        <Text key={this.state.tuneData.id}
-              text={this.state.tuneData[pageIndex].text}/>
-        <Tunesheet  key={this.state.tuneData.id}
-                    src={this.state.tuneData[pageIndex].diagram}/>
+
+        <Text text={this.state.tuneData[pageIndex].text}
+        />
+
+        <Tunesheet  src={this.state.tuneData[pageIndex].diagram}
+        />
+
         <AudioElements  tuneData={this.state.tuneData}
                         pageIndex={this.state.pageIndex}/>
 
@@ -49,34 +52,30 @@ render() {
             textAlign:"center"
           }}>Tunes/Breaks</h2>
           <p><u>Section 1 - Our Main Focus, songs that we should have totally drilled by Aug XR rebellion</u></p>
-          <p><strong>Funk</strong>
+          <p><strong>Funk</strong></p>
             <ul>
               <li>Break 1</li>
-            </ul>
-          </p>
-          <p><strong>Karla</strong>
+            </ul>          
+          <p><strong>Karla</strong></p>
             <ul>
               <li>Break 1 (gun break)</li>
               <li>Half gun drum roll</li>
               <li>Break 2</li>
               <li>Break 2 inverted</li>
-            </ul>            
-          </p>
-          <p><strong>Hedgehog</strong>
+            </ul>
+          <p><strong>Hedgehog</strong></p>
             <ul>
               <li>Break 1</li>
-            </ul>                       
-          </p>
-          <p><strong>Samba Reggae</strong>
+            </ul>
+          <p><strong>Samba Reggae</strong></p>
             <ul>
               <li>Sheffield intro</li>
               <li>Bra break</li>
               <li>Break 1</li>
               <li><em>Break 2</em></li>
               <li><em>Break 3</em></li>
-            </ul>                       
-          </p>
-          <p><strong>Misc</strong>
+            </ul> 
+          <p><strong>Misc</strong></p>
             <ul>
               <li>4 beat</li>
               <li>8 beat</li>
@@ -92,32 +91,28 @@ render() {
               <li>Time is running out break</li>
               <li>Clave break</li>
               <li>Coffee and cookies break</li>
-            </ul>                       
-          </p>
+            </ul>
           <p><u>Section 2 - In addition these would be great:</u></p>
-          <p><strong>Afoxe</strong>
+          <p><strong>Afoxe</strong></p>
             <ul>
               <li>Break 1</li>
               <li>Bra break</li>
               <li>Tamborim stroke</li>
-            </ul>                       
-          </p>
-          <p><strong>Drum & Bass</strong>
+            </ul> 
+          <p><strong>Drum & Bass</strong></p>
             <ul>
               <li>Break 1 (dance break)</li>
               <li>Break 2</li>
               <li>Break 3</li>
               <li>Hip-hop break</li>
-            </ul>                       
-          </p>
-          <p><strong>Misc</strong>
+            </ul>
+          <p><strong>Misc</strong></p>
             <ul>
               <li>Eurotrash break</li>
               <li>Scottish tune</li>
               <li>Crazy Monkey</li>
               <li>ER break 1 & 2</li>
-            </ul>                       
-          </p>
+            </ul>
         </div>                
       </div>
     )

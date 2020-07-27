@@ -18,7 +18,6 @@ function AudioElements(props) {
 
   const mp3containerStyle = {
     fontFamily: 'bitter',
-    color: 'white',
     // border: ".2rem solid grey",
     width: "10rem",
     display: "flex",
@@ -44,12 +43,11 @@ function AudioElements(props) {
   const samples = props.tuneData[props.pageIndex].samples
   const mp3Elements = samples.map((element,index) =>
 
-    <div sm={4} style={mp3containerStyle}>
+    <div key={element.link} sm={4} style={mp3containerStyle}>
       <h3 style={mp3NameStyle}>
         {element.title}
       </h3>
-      <audio loop controls 
-        key={index + 1} 
+      <audio loop controls        
         style={mp3Style}>
         <source src={element.link} 
         type="audio/mp3"/>
@@ -60,9 +58,9 @@ function AudioElements(props) {
 
   return (
     <div>
-      <row style={containerStyle}>      
+      <div style={containerStyle}>      
         {mp3Elements}
-      </row>
+      </div>
     </div>
     
   )
