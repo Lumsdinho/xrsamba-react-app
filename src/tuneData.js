@@ -297,7 +297,7 @@ const tuneData = [
     },  
     {
         id: 7,
-        title: 'CRAZY MONKEY',        
+        title: 'ELEPHANT RODEO',        
         text: 'Composed by someone from RoR Vienna during his time in Tanzania in 2011. It incorporates rhythms from different styles of pop music that young people were listening to at the time. The name is inspired by a group of monkeys who fequently visited the garden to steal things. The name of the Bongo Breaks comes from the popular type of music "Bongo Flava".',   
         diagram: './Images/CrazyMonkey/CrazyMonkey.PNG', 
         samples: [
