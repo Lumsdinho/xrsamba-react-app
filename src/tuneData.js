@@ -137,6 +137,62 @@ const tuneData = [
     },
     {
         id: 4,
+        title: 'SAMBA REGGAE',        
+        text: 'This tune is one of the RoR basics. It is (together with ‘Custard’) the RoR-Tune which sounds most like “real” Samba. It is the tune with the most breaks (seven, not counting the tamb-stroke/clave). And a lot of breaks also have nice bonuses. For example is every break ended with a surdo pickup from either high-(1, 2 & 3) or low- (every other break, sometimes even the clave & 4-pause) surdo. Also after the ‘SOS-Break’ the repis should continue playing their part of the break until the next break is called. Since practically every samba band can play a version of samba reggae, it is a good tune to play together in demonstrations in which there are other non-RoR samba bands. Sign: smoking a cigar/joint',   
+        diagram: './Images/Samba Reggae/Samba Reggae 1.PNG', 
+        samples: [
+            {
+                title: 'Main tune',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Tune.mp3?alt=media&token=2811a400-4c57-44a1-ab9c-d497d86aed98'
+            },
+            {
+                title: 'Tune (with breaks)',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20TuneWithBreaks.mp3?alt=media&token=52f5da39-0840-471d-af7b-170f91b99ded'
+            },
+            {
+                title: 'Sheffield intro',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSheffield%20Samba%20Reggae%20-%20Intro.mp3?alt=media&token=d79d6f94-ee8c-420d-82ad-d49a716ba1a1'
+            },
+            {
+                title: 'Bra break',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Bra%20Break.mp3?alt=media&token=c31a7083-a627-4243-8a70-c0f0b449767d'
+            },
+            {
+                title: 'Break 1',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Break%201.mp3?alt=media&token=6b8cfcac-8948-461a-9600-26ffbd9ee4e8'
+            },
+            {
+                title: 'Low surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20LowSurdo.mp3?alt=media&token=ea53a0a1-f11a-4e0b-925b-cfe0c6e8152c'
+            },
+            {
+                title: 'Mid surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20MidSurdo.mp3?alt=media&token=23796fe1-74cd-4c54-a9f9-26ba04127799'
+            },
+            {
+                title: 'High surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20HighSurdo.mp3?alt=media&token=7f1e5a66-23e6-4d9e-a5c2-e1bc39c4c6be'
+            },
+            {
+                title: 'Snare',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Snare.mp3?alt=media&token=4238168a-1ae2-4f8f-800c-a73f55301591'
+            },
+            {
+                title: 'Repi',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Repi.mp3?alt=media&token=b66e8ac5-e975-4bbc-8488-b6497391c9d5'
+            },
+            {
+                title: 'Tam',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Tam.mp3?alt=media&token=4d21a37b-e41b-4ee5-bdae-a18440d9451c'
+            },
+            {
+                title: 'Agogo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Agogo.mp3?alt=media&token=92c7f570-ae79-4f98-aff6-6c4dcedf6714'
+            },
+                ]
+    },
+    {
+        id: 5,
         title: 'HEDGEHOG',        
         text: 'This tune is in a Tango-rhythm which goes along for 8 steps/two bars. Nearly every instrument plays parts of the same rhythm. Therefore it’s easy to learn. Hedgehog sounds great when it is played combined with ragga (a Tango-rhythm too). As an example, just try introducing Ragga kick-backs or Zorro break playing the groove pattern. Try continuing playing this break until a Hedgehog break or similar is called. Both the Hedgehog call and Break 1 are stretched over 8 beats but the notes/shouts only happen in the last 2 or 4 beats. It is important for the mestre to count from the start of the 8 beats to get the timing right (marked with ">" on the notation). Everyone else keeps playing their normal rhythm until they are counted in - don’t stop! Sign: spiky fingers on the head',   
         diagram: './Images/Hedgehog/Hedgehog.PNG', 
@@ -184,7 +240,7 @@ const tuneData = [
                 ]
     },
     {
-        id: 5,
+        id: 6,
         title: 'AFOXE',
         text: 'Afoxê is “an Afro Brazilian genre of music”. The sign comes from the name sounding similar to "After-shave" (when pronounced with an English accent).',
         diagram: './Images/Afoxe/Afoxe.PNG',
@@ -236,7 +292,7 @@ const tuneData = [
                 ]
     },
     {
-        id: 6,
+        id: 7,
         title: 'DRUM & BASS',        
         text: 'Sounds more like Hip-Hop than Drum ‘n’ Bass but has a really nice groove. Can be very cheerful when played quite fast or be groovy when played slow.', 
         diagram: './Images/Drum n Bass/Drum&Bass.PNG',
@@ -296,7 +352,7 @@ const tuneData = [
                 ]
     },  
     {
-        id: 7,
+        id: 8,
         title: 'ELEPHANT RODEO',        
         text: 'Composed by someone from RoR Vienna during his time in Tanzania in 2011. It incorporates rhythms from different styles of pop music that young people were listening to at the time. The name is inspired by a group of monkeys who fequently visited the garden to steal things. The name of the Bongo Breaks comes from the popular type of music "Bongo Flava".',   
         diagram: './Images/CrazyMonkey/CrazyMonkey.PNG', 
