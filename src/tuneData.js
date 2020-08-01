@@ -3,7 +3,7 @@ const tuneData = [
         id: 1,
         title: 'BRIGHTON XR SAMBA',
         text: 'Welcome to Brighton XR Samba learning and practice site. Here you can find tunesheets for all the tunes that we\'ve played together, along with MP3 files for individual instrument groups. Massive thanks to Rhythms of Resistance for being cool about us using these resources. Use the buttons above to launch the tunes.',
-        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/karlaShnikov%2FImages%2Fkarla-shnikov-1%5B1%5D.png?alt=media&token=753d3be8-9833-490f-a134-0eb9b03b7c9c'],
+        diagram: ['./Images/zOther/84122783_2701107426611824_7332157138808078336_o.jpg'],
         samples: [
             {
                 title: 'Clave break',
