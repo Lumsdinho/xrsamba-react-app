@@ -3,7 +3,7 @@ const tuneData = [
         id: 1,
         title: 'BRIGHTON XR SAMBA',
         text: 'Welcome to Brighton XR Samba learning and practice site. Here you can find tunesheets for all the tunes that we\'ve played together, along with MP3 files for individual instrument groups. Massive thanks to Rhythms of Resistance for being cool about us using these resources. Use the buttons above to launch the tunes.',
-        diagram: './Images/zOther/84122783_2701107426611824_7332157138808078336_o.jpg',
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/karlaShnikov%2FImages%2Fkarla-shnikov-1%5B1%5D.png?alt=media&token=753d3be8-9833-490f-a134-0eb9b03b7c9c'],
         samples: [
             {
                 title: 'Clave break',
@@ -35,7 +35,7 @@ const tuneData = [
         id: 2,
         title: 'FUNK',        
         text: 'This tune is one of the RoR basics. Although is the only tune called Funk, is not the only that sounds “funky”. There are two other, Karla Shnikov and Angela Davis. Just try to combine them, especially Funk-Angela Davis sounds great.',   
-        diagram: './Images/Funk/Funk.PNG', 
+        diagram: ['./Images/Funk/Funk.PNG'], 
         samples: [
             {
                 title: 'Main tune',
@@ -83,7 +83,7 @@ const tuneData = [
         id: 3,
         title: 'KARLA',        
         text: 'This tune is one of the RoR basics. Often simply called “Karla”. It sounds a bit, as the name implies, like machinegun-fire. As the Breaks have steady drum rolls in them, it’s important to aim for a steady even roll. Although the temptation is to play as fast as you can, you should try to be just in time (highlighting the first hit on every step can be helpful, to keep track). Karla Shnikov is a funk tune too, but it does not fit with the other funks (Funk and Angela Davis) as well as they do together. But just try and find your own way! Sign: move index+middle finger like rabbit ears and cover other fingers with other hand',   
-        diagram: '/Images/Karlashnikov/Karla 1.PNG', 
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/karlaShnikov%2FImages%2Fkarla-shnikov-1%5B1%5D.png?alt=media&token=753d3be8-9833-490f-a134-0eb9b03b7c9c'], 
         samples: [
             {
                 title: 'Main tune',
@@ -139,7 +139,7 @@ const tuneData = [
         id: 4,
         title: 'SAMBA REGGAE',        
         text: 'This tune is one of the RoR basics. It is (together with ‘Custard’) the RoR-Tune which sounds most like “real” Samba. It is the tune with the most breaks (seven, not counting the tamb-stroke/clave). And a lot of breaks also have nice bonuses. For example is every break ended with a surdo pickup from either high-(1, 2 & 3) or low- (every other break, sometimes even the clave & 4-pause) surdo. Also after the ‘SOS-Break’ the repis should continue playing their part of the break until the next break is called. Since practically every samba band can play a version of samba reggae, it is a good tune to play together in demonstrations in which there are other non-RoR samba bands. Sign: smoking a cigar/joint',   
-        diagram: './Images/Samba Reggae/Samba Reggae 1.PNG', 
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FImages%2Fsamba-reggae-1.png?alt=media&token=9061bb83-1cb2-4476-b1ed-8009f7eb8ed5','https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FImages%2Fsamba-reggae_(1)-2%5B1%5D.jpg?alt=media&token=2ea20c2d-53e3-40ef-8266-a35a55a7a5be'], 
         samples: [
             {
                 title: 'Main tune',
@@ -147,7 +147,7 @@ const tuneData = [
             },
             {
                 title: 'Tune (with breaks)',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20TuneWithBreaks.mp3?alt=media&token=52f5da39-0840-471d-af7b-170f91b99ded'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20TuneWithBreaks.mp3?alt=media&token=7644cfd8-15a2-425b-92a6-9e809332d421'
             },
             {
                 title: 'Sheffield intro',
@@ -160,6 +160,14 @@ const tuneData = [
             {
                 title: 'Break 1',
                 link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Break%201.mp3?alt=media&token=6b8cfcac-8948-461a-9600-26ffbd9ee4e8'
+            },
+            {
+                title: 'Break 2',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Break%202.mp3?alt=media&token=8e6cf9ac-4757-46e1-b016-c65da3b43738'
+            },
+            {
+                title: 'Break 3',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/sambaReggae%2FSamba%20Reggae%20-%20Break%203.mp3?alt=media&token=3cf36625-732b-46bf-aed4-6145e2031e20'
             },
             {
                 title: 'Low surdo',
@@ -195,7 +203,7 @@ const tuneData = [
         id: 5,
         title: 'HEDGEHOG',        
         text: 'This tune is in a Tango-rhythm which goes along for 8 steps/two bars. Nearly every instrument plays parts of the same rhythm. Therefore it’s easy to learn. Hedgehog sounds great when it is played combined with ragga (a Tango-rhythm too). As an example, just try introducing Ragga kick-backs or Zorro break playing the groove pattern. Try continuing playing this break until a Hedgehog break or similar is called. Both the Hedgehog call and Break 1 are stretched over 8 beats but the notes/shouts only happen in the last 2 or 4 beats. It is important for the mestre to count from the start of the 8 beats to get the timing right (marked with ">" on the notation). Everyone else keeps playing their normal rhythm until they are counted in - don’t stop! Sign: spiky fingers on the head',   
-        diagram: './Images/Hedgehog/Hedgehog.PNG', 
+        diagram: ['./Images/Hedgehog/Hedgehog.PNG'], 
         samples: [
             {
                 title: 'Main tune',
@@ -243,7 +251,7 @@ const tuneData = [
         id: 6,
         title: 'AFOXE',
         text: 'Afoxê is “an Afro Brazilian genre of music”. The sign comes from the name sounding similar to "After-shave" (when pronounced with an English accent).',
-        diagram: './Images/Afoxe/Afoxe.PNG',
+        diagram: ['./Images/Afoxe/Afoxe.PNG'],
         samples: [
             {
                 title: 'Main tune',
@@ -295,7 +303,7 @@ const tuneData = [
         id: 7,
         title: 'DRUM & BASS',        
         text: 'Sounds more like Hip-Hop than Drum ‘n’ Bass but has a really nice groove. Can be very cheerful when played quite fast or be groovy when played slow.', 
-        diagram: './Images/Drum n Bass/Drum&Bass.PNG',
+        diagram: ['./Images/Drum n Bass/Drum&Bass.PNG'],
         samples: [
             {
                 title: 'Main tune',
@@ -355,7 +363,7 @@ const tuneData = [
         id: 8,
         title: 'ELEPHANT RODEO',        
         text: 'Composed by someone from RoR Vienna during his time in Tanzania in 2011. It incorporates rhythms from different styles of pop music that young people were listening to at the time. The name is inspired by a group of monkeys who fequently visited the garden to steal things. The name of the Bongo Breaks comes from the popular type of music "Bongo Flava".',   
-        diagram: './Images/CrazyMonkey/CrazyMonkey.PNG', 
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FImages%2Fcrazy-monkey-1%5B1%5D.png?alt=media&token=8f6dc640-d180-4f46-ad78-58c460873e22','https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FImages%2Fcrazy-monkey-2%5B1%5D.png?alt=media&token=5833ad47-e0c1-47e7-b978-3cd28d709fd0'], 
         samples: [
             {
                 title: 'Main tune',

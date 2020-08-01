@@ -7,12 +7,21 @@ function Tunesheet(props) {
         border: ".2rem solid lightGrey"
     }
 
-    const image = props.src
+    const images = props.src.map(pic => {
+        return(
+            <img src={pic}alt="drum diagram" 
+                style={tunesheetStyle}>
+            </img>
+        )
+    })
+
+    console.log(images);
     return (
         <div>
-            <img src={image}alt="drum diagram" 
+            {/* <img src={image}alt="drum diagram" 
                  style={tunesheetStyle}>
-            </img>
+            </img> */}
+            {images}
         </div>
     )
 }
