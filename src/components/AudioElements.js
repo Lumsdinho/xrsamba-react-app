@@ -1,9 +1,35 @@
 // import Star from 'Special Breaks - Star Wars Extended.mp3'
 import React from 'react'
 
-function AudioElements(props) {
+function AudioElements(props) {  
 
-  const containerStyle = {
+  const samples = props.tuneData[props.pageIndex].samples
+  const mp3Elements = samples.map((element,index) =>
+
+    <div key={element.link} sm={4} style={mp3containerStyle}>
+      <h3 style={mp3NameStyle}>
+        {element.title}
+      </h3>
+      <audio loop controls        
+        style={mp3Style}>
+        <source src={element.link} 
+        type="audio/mp3"/>
+      </audio>
+    </div>
+
+    )
+
+  return (
+    <div>
+      <div style={containerStyle}>      
+        {mp3Elements}
+      </div>
+    </div>
+    
+  )
+}
+
+const containerStyle = {
   color: "var(--clr-text)",
   fontWeight: "bold",
   fontFamily: 'bitter',
@@ -39,31 +65,5 @@ function AudioElements(props) {
   const mp3Style = {
     maxWidth: "8rem"
   }
-
-  const samples = props.tuneData[props.pageIndex].samples
-  const mp3Elements = samples.map((element,index) =>
-
-    <div key={element.link} sm={4} style={mp3containerStyle}>
-      <h3 style={mp3NameStyle}>
-        {element.title}
-      </h3>
-      <audio loop controls        
-        style={mp3Style}>
-        <source src={element.link} 
-        type="audio/mp3"/>
-      </audio>
-    </div>
-
-    )
-
-  return (
-    <div>
-      <div style={containerStyle}>      
-        {mp3Elements}
-      </div>
-    </div>
-    
-  )
-}
 
 export default AudioElements

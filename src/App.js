@@ -14,7 +14,6 @@ class App extends React.Component {
         tuneData: tuneData,
         pageIndex: 0,
     }
-    this.handleClick = this.handleClick.bind(this)
   }
 
 handleClick = (index) => this.setState(

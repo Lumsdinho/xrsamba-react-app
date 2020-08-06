@@ -1,29 +1,27 @@
 import React from 'react'
 
-function Tunesheet(props) {
+function Tunesheet(props) {    
 
-    const tunesheetStyle = {
-        maxWidth:"100%",
-        border: ".2rem solid lightGrey"
-    }
-
-    const images = props.src.map(pic => {
+    const images = props.src.map((pic,index) => {
         return(
-            <img src={pic}alt="drum diagram" 
-                style={tunesheetStyle}>
+            <img
+                src={pic}alt="drum diagram"
+                key={pic[index]}                    
+                style={tunesheetStyle}>    
             </img>
         )
     })
 
-    console.log(images);
     return (
         <div>
-            {/* <img src={image}alt="drum diagram" 
-                 style={tunesheetStyle}>
-            </img> */}
             {images}
         </div>
     )
+}
+
+const tunesheetStyle = {
+    maxWidth:"100%",
+    border: ".2rem solid lightGrey"
 }
 
 export default Tunesheet
