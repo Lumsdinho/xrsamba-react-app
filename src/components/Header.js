@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import { useSpring, animated } from 'react-spring'
 
 function Header(props) {
