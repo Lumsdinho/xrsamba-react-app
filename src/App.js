@@ -6,7 +6,7 @@ import Text from './components/Text'
 import Tunesheet from './components/Tunesheet'
 import AudioElements from './components/AudioElements'
 
-class App extends React.Component {
+class App extends React.Component {  
 
   constructor() {
     super()
