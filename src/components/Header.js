@@ -28,7 +28,12 @@ function Header(props) {
                 </animated.div>
                 
                 <div>
-                    <button className="tuneButton" key={props.data[0].id} onClick={() => props.handleClick(0)}>HOME</button>
+                    <button 
+                        className="tuneButton" 
+                        key={props.data[0].id} 
+                        onClick={() => props.handleClick(0)}
+                    >HOME
+                    </button>
                     {tuneButtons}
                 </div>
 
