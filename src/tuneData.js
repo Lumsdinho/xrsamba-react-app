@@ -39,7 +39,7 @@ const tuneData = [
         samples: [
             {
                 title: 'Main tune',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/funk%2FFunk%20-%20Tune.mp3?alt=media&token=0bc88fe4-ab68-4ea8-85a4-36f4bd1224e6'
+                    link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/funk%2FFunk%20-%20Tune.mp3?alt=media&token=0bc88fe4-ab68-4ea8-85a4-36f4bd1224e6'
             },
             {
                 title: 'Tune (with breaks)',
