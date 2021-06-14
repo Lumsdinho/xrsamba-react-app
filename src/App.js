@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import tuneData from './tuneData'
+import tuneDataImport from './tuneData'
 import Header from './components/Header'
 import Text from './components/Text'
 import Tunesheet from './components/Tunesheet'
@@ -8,7 +8,7 @@ import AudioElements from './components/AudioElements'
 
 const App = () => {
 
-  const [tuneData, setTuneData] = useState(tuneData)
+  const [tuneData, setTuneData] = useState(tuneDataImport)
   const [pageIndex, setPageIndex] = useState(0)
 
   const handleClick = (index) => {
@@ -20,7 +20,7 @@ const App = () => {
 
       <Header header={tuneData[pageIndex].title}
               data={tuneData}
-              handleClick={this.handleClick}/>
+              handleClick={handleClick}/>
 
       <Text text={tuneData[pageIndex].text}
       />
