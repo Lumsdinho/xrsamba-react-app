@@ -8,7 +8,7 @@ import AudioElements from './components/AudioElements'
 
 const App = () => {
 
-  const [tuneData, setTuneData] = useState(tuneDataImport)
+  const [tuneData] = useState(tuneDataImport)
   const [pageIndex, setPageIndex] = useState(0)
 
   const handleClick = (index) => {
