@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^7.2.1",
     "contentful": "^8.4.0",
     "howler": "^2.2.0",
+    "marked": "^2.1.2",
     "react": "^16.13.1",
     "react-audio-player": "^0.13.0",
     "react-dom": "^16.13.1",
@@ -38,6 +39,9 @@
     ]
   },
   "react-dotenv": {
-    "whitelist": ["CONTENTFUL_SPACE", "CONTENTFUL_API_KEY"]
+    "whitelist": [
+      "CONTENTFUL_SPACE",
+      "CONTENTFUL_API_KEY"
+    ]
   }
 }

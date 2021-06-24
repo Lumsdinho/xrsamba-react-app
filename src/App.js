@@ -6,6 +6,7 @@ import Text from './components/Text'
 import Tunesheet from './components/Tunesheet'
 import AudioElements from './components/AudioElements'
 import { client } from './config/contentfulClient'
+import marked from 'marked'
 
 const App = () => {
 
@@ -32,6 +33,10 @@ const App = () => {
   //   })
   // })
 
+  const itemTitle = marked(repertoire.title)
+  const itemDescription = marked(repertoire.description)
+  const itemContent = marked(repertoire.content)
+
   return (      
     <div className="container">
 
@@ -54,9 +59,9 @@ const App = () => {
         borderRadius:"2%",
         marginBottom:".5rem"
       }}>
-        <h1>{repertoire.title}</h1>
-        <h4>{repertoire.description}</h4>
-        <p>{repertoire.content}</p>        
+        <h2 style={{textAlign: 'center'}} dangerouslySetInnerHTML={{__html: `${itemTitle}`}}/>   
+        <div style={{margin: '1rem 0'}} dangerouslySetInnerHTML={{__html: `${itemDescription}`}}/>   
+        <div style={{marginTop:'2rem'}} dangerouslySetInnerHTML={{__html: `${itemContent}`}}/>   
       </div>                
     </div>
   )
