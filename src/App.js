@@ -30,12 +30,6 @@ const App = () => {
       })
   },[])
 
-  useEffect(() => {
-    const loadContent = async () => {
-      client.getEntries()
-    }
-  },[])
-
   // useEffect(() => {
   //   console.log(marked(content))
   // },[title, description, content])
