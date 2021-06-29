@@ -12,7 +12,10 @@ const App = () => {
 
   const [tuneData] = useState(tuneDataImport)
   const [pageIndex, setPageIndex] = useState(0)
-  const [repertoire, setRepertoire] = useState({})
+  // const [repertoire, setRepertoire] = useState({})
+  const [title, setTitle] = useState('')
+  const [description, setDescription] = useState('')
+  const [content, setContent] = useState('')
 
   const handleClick = (index) => {
     setPageIndex(index)
@@ -21,9 +24,21 @@ const App = () => {
   useEffect(() => {
     client.getEntries()
       .then(entries => {
-        setRepertoire(entries.items[0].fields)
+        setTitle(entries.items[0].fields.title)
+        setDescription(entries.items[0].fields.description)
+        setContent(entries.items[0].fields.content)
       })
-  })
+  },[])
+
+  useEffect(() => {
+    const loadContent = async () => {
+      client.getEntries()
+    }
+  },[])
+
+  // useEffect(() => {
+  //   console.log(marked(content))
+  // },[title, description, content])
 
   // client.getEntries().then(entries => {
   //   entries.items.forEach(entry => {
@@ -33,9 +48,10 @@ const App = () => {
   //   })
   // })
 
-  const itemTitle = marked(repertoire.title)
-  const itemDescription = marked(repertoire.description)
-  const itemContent = marked(repertoire.content)
+  // const itemTitle = marked(repertoire.title)
+  // const itemTitle = repertoire.title
+  // const itemDescription = marked(repertoire.description)
+  // const itemContent = marked(repertoire.content)
 
   return (      
     <div className="container">
@@ -58,10 +74,10 @@ const App = () => {
         border:"solid .2rem #FE82CB",
         borderRadius:"2%",
         marginBottom:".5rem"
-      }}>
-        <h2 style={{textAlign: 'center'}} dangerouslySetInnerHTML={{__html: `${itemTitle}`}}/>   
-        <div style={{margin: '1rem 0'}} dangerouslySetInnerHTML={{__html: `${itemDescription}`}}/>   
-        <div style={{marginTop:'2rem'}} dangerouslySetInnerHTML={{__html: `${itemContent}`}}/>   
+      }}>        
+        <h2 style={{textAlign: 'center'}} dangerouslySetInnerHTML={{__html: `${marked(title)}`}}/>   
+        <div style={{margin: '1rem 0'}} dangerouslySetInnerHTML={{__html: `${marked(description)}`}}/>   
+        <div style={{marginTop:'2rem'}} dangerouslySetInnerHTML={{__html: `${marked(content)}`}}/>   
       </div>                
     </div>
   )
