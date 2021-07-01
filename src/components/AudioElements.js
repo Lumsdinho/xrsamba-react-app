@@ -10,7 +10,9 @@ function AudioElements(props) {
       <h3 style={mp3NameStyle}>
         {element.title}
       </h3>
-      <audio loop controls        
+      <audio 
+        loop 
+        controls        
         style={mp3Style}>
         <source src={element.link} 
         type="audio/mp3"/>
