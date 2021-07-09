@@ -410,6 +410,54 @@ const tuneData = [
                 link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Agogo.mp3?alt=media&token=6b1f16b6-dd87-43f5-a27f-06592a35d440'
             },
                 ]
+    },
+    {
+        id: 9,
+        title: 'COCHABAMBA',        
+        text: 'A very energetic tune, which sounds a lot like hip hop. For the Surdos it might be quite hard to be in time. While they actually just have a few hits to play it’s important for them to be synchronized. Try a memory-hook/phrase to sing along in order to remember, or just listen to the sound files until it really sticks in your head. Agogôs and Surdos are the ‘heart’ of this tune, try to have them as punctual as possible.',   
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Fimages%2Fcochabamba-1.png?alt=media&token=764970da-7975-493b-8097-5b085bf092bd'], 
+        samples: [
+            {
+                title: 'Main tune',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune.mp3?alt=media&token=1c043550-9ee6-4b51-9850-bde01c1d1621'
+            },
+            {
+                title: 'Tune (with breaks)',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune%20with%20breaks.mp3?alt=media&token=d9709732-0e67-4117-8f63-b2a2d040999b'
+            },
+            {
+                title: 'Break 1',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Break%201.mp3?alt=media&token=850ca70f-16cd-4e53-848d-b4acaa03942b'
+            },
+            {
+                title: 'Low surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Low%20Surdo.mp3?alt=media&token=d53c357a-739f-48e8-a9d1-71736d1dea1e'
+            },
+            {
+                title: 'Mid surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Mid%20Surdo.mp3?alt=media&token=bb422808-f1b5-4e0b-a029-4151b5bc0f86'
+            },
+            {
+                title: 'High surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20High%20Surdo.mp3?alt=media&token=012372a4-c0c2-4bfd-9438-ae00030a2cc1'
+            },
+            {
+                title: 'Snare',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Snare.mp3?alt=media&token=b200f214-689e-4bb3-98d6-bc5c9f4a85c6'
+            },
+            {
+                title: 'Repi',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Repi.mp3?alt=media&token=20f55b81-4b27-473a-b222-16c315f8c577'
+            },
+            {
+                title: 'Tam',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tam.mp3?alt=media&token=298e5aab-ca59-40c8-bcbc-d19192877ffc'
+            },
+            {
+                title: 'Agogo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Agogo.mp3?alt=media&token=b8c19b7d-ff7f-4f67-9e9e-5fd9c3c22cbc'
+            },
+                ]
     }
 ]
 
