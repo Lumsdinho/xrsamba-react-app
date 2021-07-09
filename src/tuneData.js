@@ -419,47 +419,43 @@ const tuneData = [
         samples: [
             {
                 title: 'Main tune',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Tune.mp3?alt=media&token=e41b02b0-2885-4594-9961-6c4f1ac32f79'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune.mp3?alt=media&token=1c043550-9ee6-4b51-9850-bde01c1d1621'
             },
             {
                 title: 'Tune (with breaks)',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20TuneWithBreaks.mp3?alt=media&token=2c5c14bb-ab97-4060-81a3-824cae29332f'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune%20with%20breaks.mp3?alt=media&token=d9709732-0e67-4117-8f63-b2a2d040999b'
             },
             {
                 title: 'Break 1',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Break%201.mp3?alt=media&token=4001978f-7ba7-4aec-9eb1-ac44b2fbfde0'
-            },
-            {
-                title: 'Break 2',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Break%202.mp3?alt=media&token=fdf406a6-a0ce-48cb-b2fd-6be1b7760f76'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Break%201.mp3?alt=media&token=850ca70f-16cd-4e53-848d-b4acaa03942b'
             },
             {
                 title: 'Low surdo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20LowSurdo.mp3?alt=media&token=02a7a58f-0d58-41eb-8d9c-6a75bcbb8fdb'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Low%20Surdo.mp3?alt=media&token=d53c357a-739f-48e8-a9d1-71736d1dea1e'
             },
             {
                 title: 'Mid surdo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20MidSurdo.mp3?alt=media&token=41b6bfba-64b5-417f-8e72-a70a74a05505'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Mid%20Surdo.mp3?alt=media&token=bb422808-f1b5-4e0b-a029-4151b5bc0f86'
             },
             {
                 title: 'High surdo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20HighSurdo.mp3?alt=media&token=8fd94d42-51fe-40ed-8f7d-45f0c484b4ba'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20High%20Surdo.mp3?alt=media&token=012372a4-c0c2-4bfd-9438-ae00030a2cc1'
             },
             {
                 title: 'Snare',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Snare.mp3?alt=media&token=6d505c1b-5998-48f3-9c2b-24b42f186b88'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Snare.mp3?alt=media&token=b200f214-689e-4bb3-98d6-bc5c9f4a85c6'
             },
             {
                 title: 'Repi',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Repi.mp3?alt=media&token=dce80fea-f067-412a-9597-e83a7b222f50'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Repi.mp3?alt=media&token=20f55b81-4b27-473a-b222-16c315f8c577'
             },
             {
                 title: 'Tam',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Tam.mp3?alt=media&token=b2b88e7b-2573-4a79-a29b-8d8de1273717'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tam.mp3?alt=media&token=298e5aab-ca59-40c8-bcbc-d19192877ffc'
             },
             {
                 title: 'Agogo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/crazyMonkey%2FCrazy%20Monkey%20-%20Agogo.mp3?alt=media&token=6b1f16b6-dd87-43f5-a27f-06592a35d440'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Agogo.mp3?alt=media&token=b8c19b7d-ff7f-4f67-9e9e-5fd9c3c22cbc'
             },
                 ]
     }
