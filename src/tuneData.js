@@ -458,6 +458,54 @@ const tuneData = [
                 link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Agogo.mp3?alt=media&token=b8c19b7d-ff7f-4f67-9e9e-5fd9c3c22cbc'
             },
                 ]
+    },
+    {
+        id: 10,
+        title: 'BHANGRA',        
+        text: 'If the players or the audience needs a rest, Bhaṅgṛā is a good tune to play. But be aware of the 6/8 rhythm. On the notation sheet, every step is divided into only 3 hits (instead of 4 in the 4/4). When playing it for the first time, you might have to concentrate in order to not get stuck in the usual 4/4 rhythm. This is particularly important when switching from or into a different tune. If you play breaks from other tunes which are based on 16hits in a 4/4-pattern (eg. “kalashnikov-break”, or “8up”) try to play 12hits in a 3/4-pattern. in the beginning it’s quite hard (because the 4/4 is stuck in your head) but after a while it’s great – make sure tho whole band plays like this, if some plays it differently it can get very chaotic…',
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Fimages%2Fbhangra-1.png?alt=media&token=8ea51442-ee10-43da-b08f-249737ea1be1','https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Fimages%2Fbhangra-2.png?alt=media&token=634562ce-8344-45f4-b10f-4bbe91645dd8'], 
+        samples: [
+            {
+                title: 'Main tune',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune.mp3?alt=media&token=1c043550-9ee6-4b51-9850-bde01c1d1621'
+            },
+            {
+                title: 'Tune (with breaks)',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune%20with%20breaks.mp3?alt=media&token=d9709732-0e67-4117-8f63-b2a2d040999b'
+            },
+            {
+                title: 'Break 1',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Break%201.mp3?alt=media&token=850ca70f-16cd-4e53-848d-b4acaa03942b'
+            },
+            {
+                title: 'Low surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Low%20Surdo.mp3?alt=media&token=d53c357a-739f-48e8-a9d1-71736d1dea1e'
+            },
+            {
+                title: 'Mid surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Mid%20Surdo.mp3?alt=media&token=bb422808-f1b5-4e0b-a029-4151b5bc0f86'
+            },
+            {
+                title: 'High surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20High%20Surdo.mp3?alt=media&token=012372a4-c0c2-4bfd-9438-ae00030a2cc1'
+            },
+            {
+                title: 'Snare',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Snare.mp3?alt=media&token=b200f214-689e-4bb3-98d6-bc5c9f4a85c6'
+            },
+            {
+                title: 'Repi',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Repi.mp3?alt=media&token=20f55b81-4b27-473a-b222-16c315f8c577'
+            },
+            {
+                title: 'Tam',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tam.mp3?alt=media&token=298e5aab-ca59-40c8-bcbc-d19192877ffc'
+            },
+            {
+                title: 'Agogo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Agogo.mp3?alt=media&token=b8c19b7d-ff7f-4f67-9e9e-5fd9c3c22cbc'
+            },
+                ]
     }
 ]
 
