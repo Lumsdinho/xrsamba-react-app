@@ -467,43 +467,55 @@ const tuneData = [
         samples: [
             {
                 title: 'Main tune',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune.mp3?alt=media&token=1c043550-9ee6-4b51-9850-bde01c1d1621'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Tune.mp3?alt=media&token=ca78594a-12b4-4491-8c0e-994205c2375e'
             },
             {
                 title: 'Tune (with breaks)',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tune%20with%20breaks.mp3?alt=media&token=d9709732-0e67-4117-8f63-b2a2d040999b'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Tune%20with%20Breaks.mp3?alt=media&token=a9101c24-88da-427e-972e-802ff5e6d591'
             },
             {
                 title: 'Break 1',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Break%201.mp3?alt=media&token=850ca70f-16cd-4e53-848d-b4acaa03942b'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Break%201.mp3?alt=media&token=525f1fd1-aecf-4e2c-b89e-f021d1d56b12'
+            },
+            {
+                title: 'Break 2',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Break%202.mp3?alt=media&token=182259c0-ead7-4def-99a5-7fc243fe1713'
+            },
+            {
+                title: 'Break 3',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Break%203.mp3?alt=media&token=2d79fa44-22dc-4f22-b0ad-a29ce16fb8a5'
+            },
+            {
+                title: 'Bra Break',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Bra%20Break.mp3?alt=media&token=ea3f7237-cf11-4d39-925b-e46355bd050d'
             },
             {
                 title: 'Low surdo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Low%20Surdo.mp3?alt=media&token=d53c357a-739f-48e8-a9d1-71736d1dea1e'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Low%20Surdo.mp3?alt=media&token=3dd95a98-639d-4356-89a5-d7c05d6673aa'
             },
             {
                 title: 'Mid surdo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Mid%20Surdo.mp3?alt=media&token=bb422808-f1b5-4e0b-a029-4151b5bc0f86'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Mid%20Surdo.mp3?alt=media&token=6414e913-1087-4a74-bd74-ecc073257a03'
             },
             {
                 title: 'High surdo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20High%20Surdo.mp3?alt=media&token=012372a4-c0c2-4bfd-9438-ae00030a2cc1'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20High%20Surdo.mp3?alt=media&token=61aca6bf-d053-4db4-995a-393747f1461f'
             },
             {
                 title: 'Snare',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Snare.mp3?alt=media&token=b200f214-689e-4bb3-98d6-bc5c9f4a85c6'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Snare.mp3?alt=media&token=ac9fd6d8-27e1-4bda-a53a-5dec1f9a562f'
             },
             {
                 title: 'Repi',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Repi.mp3?alt=media&token=20f55b81-4b27-473a-b222-16c315f8c577'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Repi.mp3?alt=media&token=3086e73f-f57a-4f7c-8e36-879a6941c134'
             },
             {
                 title: 'Tam',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Tam.mp3?alt=media&token=298e5aab-ca59-40c8-bcbc-d19192877ffc'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Tam.mp3?alt=media&token=6f38c1d1-6fd6-4240-8084-8e339635d353'
             },
             {
                 title: 'Agogo',
-                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Agogo.mp3?alt=media&token=b8c19b7d-ff7f-4f67-9e9e-5fd9c3c22cbc'
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Agogo.mp3?alt=media&token=26928689-061d-42db-9907-a9d3d153e631'
             },
                 ]
     }
