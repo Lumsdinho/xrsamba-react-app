@@ -5,30 +5,18 @@ import Header from './components/Header'
 import Text from './components/Text'
 import Tunesheet from './components/Tunesheet'
 import AudioElements from './components/AudioElements'
-import { client } from './config/contentfulClient'
-import marked from 'marked'
+import Repertoire from './components/Repertoire'
+
 
 const App = () => {
 
   const [tuneData] = useState(tuneDataImport)
   const [pageIndex, setPageIndex] = useState(0)
-  // const [repertoire, setRepertoire] = useState({})
-  const [title, setTitle] = useState('')
-  const [description, setDescription] = useState('')
-  const [content, setContent] = useState('')
+  // const [repertoire, setRepertoire] = useState({})  
 
   const handleClick = (index) => {
     setPageIndex(index)
-  }
-
-  useEffect(() => {
-    client.getEntries()
-      .then(entries => {
-        setTitle(entries.items[0].fields.title)
-        setDescription(entries.items[0].fields.description)
-        setContent(entries.items[0].fields.content)
-      })
-  },[])
+  } 
 
   // useEffect(() => {
   //   console.log(marked(content))
@@ -61,18 +49,8 @@ const App = () => {
       />
 
       <AudioElements  tuneData={tuneData}
-                      pageIndex={pageIndex}/>
-
-      <div className="container" style={{
-        backgroundColor:"white",
-        border:"solid .2rem #FE82CB",
-        borderRadius:"2%",
-        marginBottom:".5rem"
-      }}>        
-        <h2 style={{textAlign: 'center'}} dangerouslySetInnerHTML={{__html: `${marked(title)}`}}/>   
-        <div style={{margin: '1rem 0'}} dangerouslySetInnerHTML={{__html: `${marked(description)}`}}/>   
-        <div style={{marginTop:'2rem'}} dangerouslySetInnerHTML={{__html: `${marked(content)}`}}/>   
-      </div>                
+                      pageIndex={pageIndex}/>  
+      <Repertoire />                  
     </div>
   )
 }
