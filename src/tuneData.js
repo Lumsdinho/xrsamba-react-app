@@ -458,6 +458,66 @@ const tuneData = [
                 link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/cochabamba%2Faudio%2FCochabamba%20-%20Agogo.mp3?alt=media&token=b8c19b7d-ff7f-4f67-9e9e-5fd9c3c22cbc'
             },
                 ]
+    },
+    {
+        id: 10,
+        title: 'BHANGRA',        
+        text: 'If the players or the audience needs a rest, Bhaṅgṛā is a good tune to play. But be aware of the 6/8 rhythm. On the notation sheet, every step is divided into only 3 hits (instead of 4 in the 4/4). When playing it for the first time, you might have to concentrate in order to not get stuck in the usual 4/4 rhythm. This is particularly important when switching from or into a different tune. If you play breaks from other tunes which are based on 16hits in a 4/4-pattern (eg. “kalashnikov-break”, or “8up”) try to play 12hits in a 3/4-pattern. in the beginning it’s quite hard (because the 4/4 is stuck in your head) but after a while it’s great – make sure tho whole band plays like this, if some plays it differently it can get very chaotic…',
+        diagram: ['https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Fimages%2Fbhangra-1.png?alt=media&token=8ea51442-ee10-43da-b08f-249737ea1be1','https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Fimages%2Fbhangra-2.png?alt=media&token=634562ce-8344-45f4-b10f-4bbe91645dd8'], 
+        samples: [
+            {
+                title: 'Main tune',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Tune.mp3?alt=media&token=ca78594a-12b4-4491-8c0e-994205c2375e'
+            },
+            {
+                title: 'Tune (with breaks)',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Tune%20with%20Breaks.mp3?alt=media&token=a9101c24-88da-427e-972e-802ff5e6d591'
+            },
+            {
+                title: 'Break 1',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Break%201.mp3?alt=media&token=525f1fd1-aecf-4e2c-b89e-f021d1d56b12'
+            },
+            {
+                title: 'Break 2',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Break%202.mp3?alt=media&token=182259c0-ead7-4def-99a5-7fc243fe1713'
+            },
+            {
+                title: 'Break 3',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Break%203.mp3?alt=media&token=2d79fa44-22dc-4f22-b0ad-a29ce16fb8a5'
+            },
+            {
+                title: 'Bra Break',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Bra%20Break.mp3?alt=media&token=ea3f7237-cf11-4d39-925b-e46355bd050d'
+            },
+            {
+                title: 'Low surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Low%20Surdo.mp3?alt=media&token=3dd95a98-639d-4356-89a5-d7c05d6673aa'
+            },
+            {
+                title: 'Mid surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Mid%20Surdo.mp3?alt=media&token=6414e913-1087-4a74-bd74-ecc073257a03'
+            },
+            {
+                title: 'High surdo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20High%20Surdo.mp3?alt=media&token=61aca6bf-d053-4db4-995a-393747f1461f'
+            },
+            {
+                title: 'Snare',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Snare.mp3?alt=media&token=ac9fd6d8-27e1-4bda-a53a-5dec1f9a562f'
+            },
+            {
+                title: 'Repi',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Repi.mp3?alt=media&token=3086e73f-f57a-4f7c-8e36-879a6941c134'
+            },
+            {
+                title: 'Tam',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Tam.mp3?alt=media&token=6f38c1d1-6fd6-4240-8084-8e339635d353'
+            },
+            {
+                title: 'Agogo',
+                link: 'https://firebasestorage.googleapis.com/v0/b/myproject-d7000.appspot.com/o/bhangra%2Faudio%2FBhangra%20-%20Agogo.mp3?alt=media&token=26928689-061d-42db-9907-a9d3d153e631'
+            },
+                ]
     }
 ]
 
