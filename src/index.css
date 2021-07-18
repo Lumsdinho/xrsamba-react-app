@@ -24,6 +24,10 @@ code {
     monospace;
 }
 
+.container {
+  max-width: 900px;
+}
+
 .tuneButton {
   cursor: pointer;    
   border: 0;

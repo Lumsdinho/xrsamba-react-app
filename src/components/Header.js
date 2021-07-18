@@ -1,17 +1,21 @@
 import React from 'react'
 import { useSpring, animated } from 'react-spring'
 
-function Header(props) {
+function Header({ header, data, setPageIndex }) {
+
+    const handleClick = (index) => {
+        setPageIndex(index)
+      } 
        
-    const tuneButtons = props.data
+    const tuneButtons = data
         .filter(tune => tune.title !=='BRIGHTON XR SAMBA')
         .map((tune,index) => 
-        <button 
-            className="tuneButton"
-            key={tune.id}             
-            onClick={() => props.handleClick(index+1)}
-            >{tune.title}        
-        </button>)
+            <button 
+                className="tuneButton"
+                key={tune.id}             
+                onClick={() => handleClick(index+1)}
+                >{tune.title}        
+            </button>)
 
     const fadeIn = useSpring({
         opacity: 1,
@@ -24,14 +28,14 @@ function Header(props) {
             <nav style={navStyle}>               
 
                 <animated.div style={fadeIn}>
-                    <h2 style={headerStyle}>{props.header}</h2>
+                    <h2 style={headerStyle}>{header}</h2>
                 </animated.div>
                 
                 <div>
                     <button 
                         className="tuneButton" 
-                        key={props.data[0].id} 
-                        onClick={() => props.handleClick(0)}
+                        key={data[0].id} 
+                        onClick={() => handleClick(0)}
                     >HOME
                     </button>
                     {tuneButtons}
